@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Button from '@mui/material/Button';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function App() {
+  return <Button variant="contained">Hello World</Button>;
+}
+
+ReactDOM.render(<App />, document.querySelector('#app'));
