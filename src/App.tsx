@@ -5,10 +5,10 @@ import './App.css';
 
 export default function App() {
   return (
-    <>
-      <Navbar></Navbar>
+    <div className="full-height">
+      <Navbar />
 
-      {/* <Homepage></Homepage> */}
-    </>
+      <Homepage />
+    </div>
   );
 }

@@ -5,7 +5,7 @@ import './Navbar.css';
 
 export default function App() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar variant="dark" expand="lg" sticky="top">
       <Container fluid className="px-4">
         <Navbar.Brand href="#">Genshin Planner</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarContent" />
