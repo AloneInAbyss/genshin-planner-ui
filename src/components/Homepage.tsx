@@ -1,11 +1,10 @@
 import { Button, Card, Col, Row } from 'react-bootstrap';
-import './Homepage.css';
 
 export default function App() {
   return (
     <main
-      className="col-md-9 col-lg-7 mx-auto p-3 px-4 p-sm-5 main-content"
-      style={{ flex: 1 }}
+      className="col-12 col-md-9 col-lg-7 p-3 px-4 pb-5 p-sm-5 mx-auto"
+      style={{ flex: 1, backgroundColor: 'hsl(0, 0%, 25%)' }}
     >
       <h1 className="mb-4 mb-sm-5 mt-3 mt-sm-0 text-light text-center">
         Bem-vindo ao Genshin Planner!
