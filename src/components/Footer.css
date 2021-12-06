@@ -1,0 +1,8 @@
+footer {
+  font-family: 'Sigmar One', cursive;
+}
+
+footer a {
+  text-decoration: none !important;
+  color: rgba(1, 11, 92, 0.7) !important;
+}
